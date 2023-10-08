@@ -1,0 +1,17 @@
+hx README.md
+cat grade.sh
+ll
+cd tests
+cd ../
+grep dlist *
+cd ../
+rp dlist **/*.{h,c}
+rg dlist **/*.{h,c}
+cd ../
+code grade.sh
+code tests/test0.sh
+ls
+cd ../
+code dlist.h
+ls
+cd ../
