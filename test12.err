@@ -1,0 +1,1 @@
+test12: dccthread.c:48: dequeue_ready_thread: Assertion `!dlist_empty(ready_threads)' failed.

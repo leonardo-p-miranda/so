@@ -1,179 +1,28 @@
-/usr/bin/ld: /tmp/ccwpTQcl.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test1.c:13: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/cc0mM2nB.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test2.c:12: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccZnu6iS.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test3.c:18: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccRF3BwL.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test4.c:16: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccRw28O4.o: in function `test1':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test5.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test5.c:9: undefined reference to `dccthread_name'
-/usr/bin/ld: /tmp/ccRw28O4.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test5.c:16: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccf4XRRB.o: in function `test2':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test6.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test6.c:9: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test6.c:11: undefined reference to `dccthread_yield'
-/usr/bin/ld: /tmp/ccf4XRRB.o: in function `test1':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test6.c:17: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test6.c:20: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test6.c:22: undefined reference to `dccthread_yield'
-/usr/bin/ld: /tmp/ccf4XRRB.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test6.c:28: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccv1wLsV.o: in function `texit':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:8: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:9: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccv1wLsV.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:14: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:19: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:21: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:22: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:23: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:24: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:25: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:27: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccv1wLsV.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:32: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/cciV8vA8.o: in function `texit':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:8: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:9: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/cciV8vA8.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:14: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:19: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:21: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:22: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:23: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:24: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:25: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:27: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/cciV8vA8.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test7.c:32: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccg3LpYc.o: in function `tyield':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:8: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:9: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:10: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:11: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccg3LpYc.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:16: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:21: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:23: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:24: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:25: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:26: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:27: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:29: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccg3LpYc.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:34: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccWp0fLn.o: in function `tyield':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:8: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:9: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:10: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:11: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccWp0fLn.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:16: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:21: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:23: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:24: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:25: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:26: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:27: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:29: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccWp0fLn.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test8.c:34: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccvED8nv.o: in function `tloop':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:13: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccvED8nv.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:24: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:25: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccvED8nv.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:30: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccv9yRpO.o: in function `tloop':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:13: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccv9yRpO.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:24: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:25: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccv9yRpO.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test9.c:30: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/cc7B03w6.o: in function `tloop':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:10: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:12: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/cc7B03w6.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:19: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:22: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:23: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/cc7B03w6.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:28: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccPC2u9f.o: in function `tloop':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:10: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:12: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccPC2u9f.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:19: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:22: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:23: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccPC2u9f.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test10.c:28: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/cc7Yzdlk.o: in function `tsleep':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:11: undefined reference to `dccthread_sleep'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:12: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:13: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/cc7Yzdlk.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:26: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:29: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/cc7Yzdlk.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:34: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccesKBvP.o: in function `tsleep':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:11: undefined reference to `dccthread_sleep'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:12: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:13: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccesKBvP.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:26: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:29: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccesKBvP.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test11.c:34: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccxnRJ5P.o: in function `tsleep':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:11: undefined reference to `dccthread_sleep'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:12: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:13: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccxnRJ5P.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:26: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:30: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:33: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccxnRJ5P.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:38: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
-/usr/bin/ld: /tmp/ccV7H2PV.o: in function `tsleep':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:7: undefined reference to `dccthread_self'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:11: undefined reference to `dccthread_sleep'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:12: undefined reference to `dccthread_name'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:13: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccV7H2PV.o: in function `test':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:26: undefined reference to `dccthread_yield'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:30: undefined reference to `dccthread_wait'
-/usr/bin/ld: /home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:33: undefined reference to `dccthread_exit'
-/usr/bin/ld: /tmp/ccV7H2PV.o: in function `main':
-/home/leonardo-ubuntu/studies/tp-so/v1/tests/test12.c:38: undefined reference to `dccthread_init'
-collect2: error: ld returned 1 exit status
+dccthread.c: In function ‘dccthread_init’:
+dccthread.c:159:1: warning: ‘noreturn’ function does return
+  159 | }
+      | ^
+At top level:
+dccthread.c:82:13: warning: ‘dccthread_sighandler’ defined but not used [-Wunused-function]
+   82 | static void dccthread_sighandler(int signum)
+      |             ^~~~~~~~~~~~~~~~~~~~
+tests/test11.c: In function ‘tsleep’:
+tests/test11.c:11:9: warning: implicit declaration of function ‘dccthread_sleep’; did you mean ‘dccthread_self’? [-Wimplicit-function-declaration]
+   11 |         dccthread_sleep(ts);
+      |         ^~~~~~~~~~~~~~~
+      |         dccthread_self
+tests/test11.c: In function ‘tsleep’:
+tests/test11.c:11:9: warning: implicit declaration of function ‘dccthread_sleep’; did you mean ‘dccthread_self’? [-Wimplicit-function-declaration]
+   11 |         dccthread_sleep(ts);
+      |         ^~~~~~~~~~~~~~~
+      |         dccthread_self
+tests/test12.c: In function ‘tsleep’:
+tests/test12.c:11:9: warning: implicit declaration of function ‘dccthread_sleep’; did you mean ‘dccthread_self’? [-Wimplicit-function-declaration]
+   11 |         dccthread_sleep(ts);
+      |         ^~~~~~~~~~~~~~~
+      |         dccthread_self
+tests/test12.c: In function ‘tsleep’:
+tests/test12.c:11:9: warning: implicit declaration of function ‘dccthread_sleep’; did you mean ‘dccthread_self’? [-Wimplicit-function-declaration]
+   11 |         dccthread_sleep(ts);
+      |         ^~~~~~~~~~~~~~~
+      |         dccthread_self
